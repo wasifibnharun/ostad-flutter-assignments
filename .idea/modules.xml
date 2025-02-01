@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ostad_assignments.iml" filepath="$PROJECT_DIR$/ostad_assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/ostad_assignments_android.iml" filepath="$PROJECT_DIR$/android/ostad_assignments_android.iml" />
     </modules>
   </component>
 </project>
