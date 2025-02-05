@@ -158,12 +158,7 @@ class _HomePageState extends State<HomePage> {
                   child: ListView.builder(
                     itemCount: _contacts.length,
                     itemBuilder: (context, index){
-                      return Container(
-                        margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.blueGrey[50],
-                          borderRadius: BorderRadius.circular(8),
-                          ),
+                      return Card(
                         child: ListTile(
                           title: Text(_contacts[index]['name']!, style: TextStyle(fontSize: 20, color: Colors.red, fontWeight: FontWeight.w500),),
                           subtitle: Text(_contacts[index]['phone']!),
